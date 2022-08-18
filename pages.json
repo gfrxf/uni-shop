@@ -1,11 +1,6 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-<<<<<<< HEAD
-
-=======
-		
->>>>>>> tabbar
-	    {
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pagesgit
+           {
             "path" : "pages/home/home",
             "style" :                                                                                    
             {
@@ -42,6 +37,30 @@
             
         }
     ],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages":[{
+                    "path" : "goods_details/goods_details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "黑马优购",

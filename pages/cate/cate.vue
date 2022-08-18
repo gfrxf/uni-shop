@@ -3,10 +3,6 @@
 		<view class="scroll-view-container">
 			<!-- 左侧的滑动区域v -->
 			<scroll-view scroll-y="true" :style="{height: wh+ 'px'}"  class="left-scroll-view">
-				<view class="left-scroll-view-item active">xxx</view>
-				<view class="left-scroll-view-item">xxx</view>
-				<view class="left-scroll-view-item">xxx</view>
-				<view class="left-scroll-view-item">xxx</view>
 				<view class="left-scroll-view-item">xxx</view>
 			</scroll-view>
 			<!-- 右侧的滑动区域 -->

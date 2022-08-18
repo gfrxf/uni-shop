@@ -1,1 +1,1 @@
-<view></view>
+<view><view class="scroll-view-container"><scroll-view class="left-scroll-view" style="{{'height:'+(wh+'px')+';'}}" scroll-y="true"><view class="left-scroll-view-item active">xxx</view><view class="left-scroll-view-item">xxx</view><view class="left-scroll-view-item">xxx</view><view class="left-scroll-view-item">xxx</view><view class="left-scroll-view-item">xxx</view></scroll-view><scroll-view class="right-scroll-view" style="{{'height:'+(wh+'px')+';'}}" scroll-y="true"></scroll-view></view></view>

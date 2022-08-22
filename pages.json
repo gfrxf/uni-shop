@@ -40,7 +40,8 @@
 	"subPackages": [
 		{
 			"root": "subpkg",
-			"pages":[{
+			"pages":[
+				{
                     "path" : "goods_details/goods_details",
                     "style" :                                                                                    
                 {
@@ -51,13 +52,17 @@
                 }
                 ,{
                     "path" : "goods_list/goods_list",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
+                    "style" : {
+						"onReachBottomDistance": 150,
+						"enablePullDownRefresh": true,
+						"backgroundColor": "#f8f8f8"
+					}                                                                                   
+                
+                   
                 
                 }
+                
+                
                 ,{
                     "path" : "search/search",
                     "style" :                                                                                    

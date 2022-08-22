@@ -9,8 +9,8 @@
       "list": [
         {
           "name": "",
-          "pathName": "subpkg/goods_details/goods_details",
-          "query": "goods_id=392",
+          "pathName": "pages/cart/cart",
+          "query": "",
           "launchMode": "default",
           "scene": null
         }

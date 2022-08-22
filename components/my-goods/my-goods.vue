@@ -28,12 +28,16 @@
 			goods:{
 				type:Object,
 				dedault:{},
-			}
+			},
+			showRadio:{
+				type:Boolean
+			},
 		},
 		methods: {
 			clickItem(){
 				this.$emit('click')
-			}
+			},
+			
 		},
 		data() {
 			return {

@@ -1,5 +1,5 @@
 import App from './App'
-
+import store from '../uni-shop/store/store.js'
 // #ifndef VUE3
 import Vue from 'vue'
 // 导入网络请求的包
@@ -34,7 +34,8 @@ uni.$showMsg = function (title = '数据请求失败',duration = 1500) {
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
-    ...App
+    ...App,
+	store
 })
 app.$mount()
 // #endif
@@ -45,6 +46,7 @@ export function createApp() {
   const app = createSSRApp(App)
   return {
     app
+	
   }
 }
 // #endif

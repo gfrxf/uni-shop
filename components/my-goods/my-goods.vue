@@ -3,7 +3,7 @@
 		<view class="goods-item" >
 		<!-- 左侧图片区域 -->
 		<view class="goods-left-item">
-			<radio checked color="#c00000"></radio>
+			<radio   :checked="goods.goods_state" color="#c00000"  @click="radioclickHandler" v-if="showRadio"></radio>
 		<image :src="goods.goods_small_logo || defaultPic" mode="" class="goods-item-img"></image>	
 		</view>
 		<!-- 右侧的盒子 -->
@@ -13,6 +13,7 @@
 			</view>	
 			<view class="goods-info-box">
 			<view class="goods-price">¥{{goods.goods_price | tofixed}}</view>	
+			<uni-number-box @change="numChangeHandler" :min="1" :value="goods.goods_count" v-if="showNum"></uni-number-box>
 			</view>
 			
 		</view>
@@ -30,13 +31,33 @@
 				dedault:{},
 			},
 			showRadio:{
-				type:Boolean
+				type:Boolean,
+				default:false
 			},
+			showNum:{
+				type:Boolean,
+				default:false
+			}
 		},
 		methods: {
-			clickItem(){
-				this.$emit('click')
+			// 这是radio组件的点击处理函数
+			radioclickHandler(){
+				this.$emit('radioChange',{
+					goods_id : this.goods.goods_id,
+					goods_state: !this.goods.goods_state
+					
+				})
+				// console.log(!(this.goods.goods_state));
 			},
+			// 这是处理num组件的变化函数
+			numChangeHandler(val) {
+				console.log(val);
+				this.$emit('numChange',{
+					goods_id : this.goods.goods_id,
+					goods_count:val-0
+				})
+			}
+			
 			
 		},
 		data() {
@@ -60,6 +81,8 @@
 	display: flex;
 	padding: 10px 5px;
 	border-bottom: 1px solid #f0f0f0;
+	width: 750rpx;
+	box-sizing: border-box;
 	.goods-left-item{
 		margin-right: 5px;
 		display: flex;
@@ -79,10 +102,15 @@
 		.goods-name{
 			font-size: 13px;
 		}
-		.goods-price{
-			color: #c00000;
-			font-size: 16px;
+		.goods-info-box{
+			display: flex;
+			justify-content: space-between;
+			.goods-price{
+				color: #c00000;
+				font-size: 16px;
+			}
 		}
+		
 	}
 }
 </style>

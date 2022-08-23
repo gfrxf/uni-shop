@@ -1,5 +1,7 @@
 <template>
-	<view>
+	<view class="cart-container" v-if="cart.length !== 0">
+		<!-- 收获地址组件 -->
+		<my-address></my-address>
 		<!-- 商品列表的标题
 		 -->
 		 <view class="cart-title">
@@ -10,15 +12,28 @@
 			
 		 </view>
 		 <!-- 循环渲染列表数据 -->
-		 <block v-for="(goods,i) in cart" :key="i">
-			 <my-goods :goods="goods">></my-goods>
-		 </block>
+		<uni-swipe-action>
+			 <block v-for="(goods,i) in cart" :key="i">
+			<uni-swipe-action-item :right-options="options" @click="swiperItemClickHandel(goods)">
+				 <my-goods @numChange="numChange" :showRadio="true" @radioChange="radioChangeHandler" :showNum="true" :goods="goods">></my-goods>
+			</uni-swipe-action-item>
+			 </block>
+		</uni-swipe-action>
+		<!-- 自定义结算组件 -->
+		<my-settle></my-settle>
+			
+		
 	</view>
+<!-- 空白购物车区域 -->
+<view class="empty-cart" v-else>
+	<image src="../../static/cart_empty@2x.png" class="empty-img" mode=""></image>
+	<text class="tip-text">空空如也</text>
+</view>
 </template>
 
 <script>
 	import badgeMix from '../../mixins/tabbar-badge.js'
-	import {mapState} from 'vuex'
+	import {mapState,mapMutations} from 'vuex'
 	export default {
 		mixins:[badgeMix],
 		computed:{
@@ -26,14 +41,37 @@
 		},
 		data() {
 			return {
-				
+				options:[{
+					text:'删除',
+					style:{
+						backgroundColor:'#C00000'
+					}
+				}],
 			};
 		},
+		methods:{
+			...mapMutations('m_cart',['updateGoodsState','updateGoodsNum','removeGoodsByid']),
+			radioChangeHandler(e){
+				// console.log(e);
+				this.updateGoodsState(e)
+			},
+			numChange(e){
+				console.log(e);
+				this.updateGoodsNum(e)
+			},
+			swiperItemClickHandel(goods){
+				console.log(goods);
+				this.removeGoodsByid(goods)
+			}
+		}
 		
 	}
 </script>
 
 <style lang="scss">
+	.cart-container{
+		padding-bottom: 50px;
+	}
 .cart-title {
 	height: 40px;
 	display: flex;
@@ -43,6 +81,21 @@
 	.cart-title-text{
 		font-size: 14px;
 		margin-left: 10px;
+	}
+}
+.empty-cart{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 150px;
+	.empty-img{
+		width: 90px;
+		height: 90px;
+	}
+	.tip-text{
+		font-size: 12px;
+		color: gray;
+		margin-top: 15px;
 	}
 }
 </style>

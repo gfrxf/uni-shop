@@ -4587,57 +4587,6 @@ module.exports = index_cjs;
 
 /***/ }),
 
-/***/ 134:
-/*!***************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 135));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 136));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 137));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
-{
-  en: _en.default,
-  'zh-Hans': _zhHans.default,
-  'zh-Hant': _zhHant.default };exports.default = _default;
-
-/***/ }),
-
-/***/ 135:
-/*!**************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
-  \**************************************************************************************************************************/
-/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-goods-nav.options.cart\":\"cart\",\"uni-goods-nav.buttonGroup.addToCart\":\"add to cart\",\"uni-goods-nav.buttonGroup.buyNow\":\"buy now\"}");
-
-/***/ }),
-
-/***/ 136:
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
-  \*******************************************************************************************************************************/
-/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-goods-nav.options.cart\":\"购物车\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入购物车\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即购买\"}");
-
-/***/ }),
-
-/***/ 137:
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
-  \*******************************************************************************************************************************/
-/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-goods-nav.options.cart\":\"購物車\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入購物車\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即購買\"}");
-
-/***/ }),
-
 /***/ 14:
 /*!************************************************************************!*\
   !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/store/cart.js ***!
@@ -4717,17 +4666,17 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-go
 
 /***/ }),
 
-/***/ 145:
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
-  \*****************************************************************************************************************************/
+/***/ 146:
+/*!***************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 146));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 147));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 148));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 147));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 148));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 149));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -4735,36 +4684,36 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1
 
 /***/ }),
 
-/***/ 146:
-/*!****************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
-  \****************************************************************************************************************************/
-/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"Search enter content\"}");
-
-/***/ }),
-
 /***/ 147:
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
-  \*********************************************************************************************************************************/
-/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/*!**************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
+  \**************************************************************************************************************************/
+/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
+module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-goods-nav.options.cart\":\"cart\",\"uni-goods-nav.buttonGroup.addToCart\":\"add to cart\",\"uni-goods-nav.buttonGroup.buyNow\":\"buy now\"}");
 
 /***/ }),
 
 /***/ 148:
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
-  \*********************************************************************************************************************************/
-/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/*!*******************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"請輸入搜索內容\"}");
+module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-goods-nav.options.cart\":\"购物车\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入购物车\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即购买\"}");
+
+/***/ }),
+
+/***/ 149:
+/*!*******************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-goods-nav.options.cart\":\"購物車\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入購物車\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即購買\"}");
 
 /***/ }),
 
@@ -4779,7 +4728,11 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
   namespaced: true,
   state: function state() {return {
-      address: JSON.parse(uni.getStorageSync('address') || '{}') };},
+      address: JSON.parse(uni.getStorageSync('address') || '{}'),
+      // token: uni.getStorageSync('token') || '',
+      token: '',
+      // 用户的信息对象
+      userinfo: JSON.parse(uni.getStorageSync('userinfo') || '{}') };},
 
   mutations: {
     updateAddress: function updateAddress(state, address) {
@@ -4789,7 +4742,29 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
     // 持续话存储address
     saveAddressToStorage: function saveAddressToStorage(state) {
       uni.setStorageSync('address', JSON.stringify(state.address));
+    },
+    // 更行用户信息
+    updateUserInfo: function updateUserInfo(state, userinfo) {
+      state.userinfo = userinfo;
+      this.commit('m_user/saveUserInfoStroage');
+
+    },
+    // 持久化存储userinfo
+    saveUserInfoStroage: function saveUserInfoStroage(state) {
+      uni.setStorageSync('userinfo', JSON.stringify(state.userinfo));
+    },
+    // 更新 token 字符串
+    updateToken: function updateToken(state, token) {
+      state.token = token;
+      // 通过 this.commit() 方法，调用 m_user 模块下的 saveTokenToStorage 方法，
+      // 将 token 字符串持久化存储到本地
+      this.commit('m_user/saveTokenToStorage');
+    },
+    // 将 token 字符串持久化存储到本地
+    saveTokenToStorage: function saveTokenToStorage(state) {
+      uni.setStorageSync('token', state.token);
     } },
+
 
   getters: {
     // 收货详细地址的计算属性
@@ -4800,6 +4775,46 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
       state.address.countyName + state.address.detailInfo;
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 157:
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 158));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 159));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 160));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+{
+  en: _en.default,
+  'zh-Hans': _zhHans.default,
+  'zh-Hant': _zhHant.default };exports.default = _default;
+
+/***/ }),
+
+/***/ 158:
+/*!****************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
+  \****************************************************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"Search enter content\"}");
+
+/***/ }),
+
+/***/ 159:
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
 
 /***/ }),
 
@@ -4885,6 +4900,17 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 
 var $http = new Request();exports.$http = $http;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 160:
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/kumabon/Documents/HBuilderProjects/uni-shop/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"請輸入搜索內容\"}");
 
 /***/ }),
 
